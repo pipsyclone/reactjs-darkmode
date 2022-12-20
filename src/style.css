@@ -1,0 +1,65 @@
+body {
+     transition: .3s;
+}
+
+.border-custom {
+     border: .1mm solid grey;
+}
+
+.middle {
+     position: absolute;
+     transform: translate(-50%, -50%);
+     top: 50%;
+     left: 50%;
+}
+
+/* Dark Theme */
+.card-custom {
+     background: white;
+     border-radius: 10px;
+     padding: 20px;
+}
+
+.body-darkmode { /* For background body */
+     background-color: #0f172a;
+     color: white;
+}
+
+.darkmode { /* For background element */
+     background-color: #1e293b;
+}
+
+.btn-darkmode {
+     padding: 7px 15px 7px 15px;
+     background-color: #0f172a;
+     border-radius: 7px;
+     color: gainsboro;
+     border: 0px;
+     transition: .3s;
+}
+
+.btn-darkmode:hover {
+     background-color: #0b1220;
+}
+
+.btn-darkmode-sm {
+     font-size: 10pt;
+}
+
+.input-darkmode {
+     padding: 7px;
+     background-color: #0f172a;
+     border: .1mm solid black;
+     color: gainsboro;
+     border-radius: 7px;
+     transition: .3s;
+}
+
+.input-darkmode:focus {
+     border: .1mm solid #16C60C;
+     outline: none;
+}
+
+.input-darkmode-sm {
+     font-size: 10pt;
+}
